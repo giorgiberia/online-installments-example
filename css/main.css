@@ -1,0 +1,47 @@
+body {
+    font-family: Georgia, sans-serif;
+}
+
+.container {
+    padding: 20px;
+}
+
+.shop-item {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    padding: 15px;
+    box-shadow: 1px 1px 3px #AAA;
+}
+
+.shop-item > .title {
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.shop-item > .description {
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+.shop-item > .footer {
+    margin-top: 15px;
+}
+
+.btn-installment {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn-installment:hover {
+    background-color: #e7e7e7;
+}
