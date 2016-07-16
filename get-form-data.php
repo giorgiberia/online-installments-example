@@ -32,4 +32,4 @@ switch ($company) {
         die();
 }
 
-echo $provider->htmlForm($product);
+echo $provider->htmlForm();
