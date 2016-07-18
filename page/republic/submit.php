@@ -3,7 +3,7 @@
 /**
  * Your Google form key
  */
-$formKey = "haha";
+$formKey = "somerandomkey";
 
 /**
  * Your Google form success message
