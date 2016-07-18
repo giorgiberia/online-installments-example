@@ -14,7 +14,7 @@ class RepublicProvider implements InstallmentContract
     public function htmlForm()
     {
         return <<<HTML
-<form action="/page/republic" method="post" style="display: none">
+<form action="/page/republic/start.php" method="post" style="display: none">
     <input type="text" name="name" value="{$this->product['name']}">
     <input type="text" name="price" value="{$this->product['price']}">
 </form>
